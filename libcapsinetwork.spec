@@ -6,6 +6,7 @@ Release:	1
 License:	LGPL/GPL
 Group:		Libraries
 Source0:	http://twtelecom.dl.sourceforge.net/sourceforge/libcapsinetwork/%{name}-%{version}.tar.bz2
+# Source0-md5:	492a032e4999e41f9ad6cfc0dd026ef3
 URL:		http://unixcode.org/libcapsinetwork/
 BuildRequires:	autoconf
 BuildRequires:	automake
