@@ -1,5 +1,5 @@
 Summary:	A network library for C++ server daemons
-Summary(pl):	Sieciowa bibliotek± C++ dla demonów
+Summary(pl):	Sieciowa biblioteka C++ dla demonów
 Name:		libcapsinetwork
 Version:	0.2.3
 Release:	1
@@ -17,8 +17,8 @@ libCapsiNetwork is a network library for C++ server daemons aimed at
 easy development of server daemons.
 
 %description -l pl
-libCapsiNetwork jest sieciow± bibliotek± C++ pozwalaj±c± w ³atwy sposób
-tworzyæ demony.
+libCapsiNetwork jest sieciow± bibliotek± C++ pozwalaj±c± w ³atwy
+sposób tworzyæ demony.
 
 %package devel
 Summary:	libcapsinetwork header files
@@ -65,6 +65,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+# aren't COPYING* just GPL/LGPL?
 %doc AUTHORS ChangeLog NEWS README TODO COPYING COPYING.LIB
 %attr(755,root,root) %{_libdir}/lib*.so.*.*
 
