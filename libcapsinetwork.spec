@@ -8,7 +8,6 @@ Group:		Libraries
 Source0:	http://unixcode.org/downloads/libcapsinetwork/%{name}-%{version}.tar.bz2
 # Source0-md5:	47829a36d663dfe6ae8e59e16a9d0bb7
 URL:		http://unixcode.org/libcapsinetwork/
-BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
