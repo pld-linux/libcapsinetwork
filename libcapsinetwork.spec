@@ -1,12 +1,12 @@
 Summary:	A network library for C++ server daemons
 Summary(pl):	Sieciowa biblioteka C++ dla demonów
 Name:		libcapsinetwork
-Version:	0.2.5
+Version:	0.3.0
 Release:	1
 License:	LGPL/GPL
 Group:		Libraries
 Source0:	http://unixcode.org/downloads/%{name}/%{name}-%{version}.tar.bz2
-# Source0-md5:	137680dbb377e233264076faa0af4da3
+# Source0-md5:	47829a36d663dfe6ae8e59e16a9d0bb7
 URL:		http://unixcode.org/libcapsinetwork/
 BuildRequires:	autoconf
 BuildRequires:	automake
