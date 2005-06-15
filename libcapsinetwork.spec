@@ -1,4 +1,4 @@
-%bcond_without	static	# don't build static library
+%bcond_without	static_libs	# don't build static library
 Summary:	A network library for C++ server daemons
 Summary(pl):	Sieciowa biblioteka C++ dla demonów
 Name:		libcapsinetwork
@@ -57,7 +57,7 @@ Statyczna biblioteka libcapsinetwork.
 %{__autoconf}
 %{__automake}
 %configure \
-	%{!?with_static:--disable-static}
+	%{!?with_static_libs:--disable-static}
 
 %{__make}
 
@@ -84,7 +84,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/lib*.la
 %{_includedir}/libcapsinetwork
 
-%if %{with static}
+%if %{with static_libs}
 %files static
 %defattr(644,root,root,755)
 %{_libdir}/lib*.a
