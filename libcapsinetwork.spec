@@ -1,3 +1,4 @@
+#
 # Conditional build:
 %bcond_without	static_libs	# don't build static library
 #
@@ -8,8 +9,9 @@ Version:	0.3.0
 Release:	3
 License:	LGPL/GPL
 Group:		Libraries
-Source0:	http://unixcode.org/downloads/libcapsinetwork/%{name}-%{version}.tar.bz2
+Source0:	http://robertjohnkaper.com/downloads/atlantik/%{name}-%{version}.tar.bz2
 # Source0-md5:	47829a36d663dfe6ae8e59e16a9d0bb7
+# redirects to http://www.robertjohnkaper.com/software/atlantik/download.html
 URL:		http://unixcode.org/libcapsinetwork/
 BuildRequires:	automake
 BuildRequires:	autoconf
