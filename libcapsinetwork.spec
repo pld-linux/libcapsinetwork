@@ -3,7 +3,7 @@
 %bcond_without	static_libs	# don't build static library
 #
 Summary:	A network library for C++ server daemons
-Summary(pl):	Sieciowa biblioteka C++ dla demonów
+Summary(pl.UTF-8):   Sieciowa biblioteka C++ dla demonÃ³w
 Name:		libcapsinetwork
 Version:	0.3.0
 Release:	3
@@ -23,13 +23,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 libCapsiNetwork is a network library for C++ server daemons aimed at
 easy development of server daemons.
 
-%description -l pl
-libCapsiNetwork jest sieciow± bibliotek± C++ pozwalaj±c± w ³atwy
-sposób tworzyæ demony.
+%description -l pl.UTF-8
+libCapsiNetwork jest sieciowÄ… bibliotekÄ… C++ pozwalajÄ…cÄ… w Å‚atwy
+sposÃ³b tworzyÄ‡ demony.
 
 %package devel
 Summary:	libcapsinetwork header files
-Summary(pl):	Pliki nag³ówkowe libcapsinetwork
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe libcapsinetwork
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libstdc++-devel
@@ -37,19 +37,19 @@ Requires:	libstdc++-devel
 %description devel
 libcapsinetwork header files.
 
-%description devel -l pl
-Pliki nag³ówkowe libcapsinetwork.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe libcapsinetwork.
 
 %package static
 Summary:	libcapsinetwork static library
-Summary(pl):	Statyczna biblioteka libcapsinetwork
+Summary(pl.UTF-8):   Statyczna biblioteka libcapsinetwork
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 libcapsinetwork static library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libcapsinetwork.
 
 %prep
