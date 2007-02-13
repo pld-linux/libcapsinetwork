@@ -3,7 +3,7 @@
 %bcond_without	static_libs	# don't build static library
 #
 Summary:	A network library for C++ server daemons
-Summary(pl.UTF-8):   Sieciowa biblioteka C++ dla demonów
+Summary(pl.UTF-8):	Sieciowa biblioteka C++ dla demonów
 Name:		libcapsinetwork
 Version:	0.3.0
 Release:	3
@@ -29,7 +29,7 @@ sposób tworzyć demony.
 
 %package devel
 Summary:	libcapsinetwork header files
-Summary(pl.UTF-8):   Pliki nagłówkowe libcapsinetwork
+Summary(pl.UTF-8):	Pliki nagłówkowe libcapsinetwork
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libstdc++-devel
@@ -42,7 +42,7 @@ Pliki nagłówkowe libcapsinetwork.
 
 %package static
 Summary:	libcapsinetwork static library
-Summary(pl.UTF-8):   Statyczna biblioteka libcapsinetwork
+Summary(pl.UTF-8):	Statyczna biblioteka libcapsinetwork
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
